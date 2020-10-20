@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="6dp"
+    app:cardCornerRadius="24dp">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/bookImageView"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:id="@+id/bookTitle"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Book Title"
+            android:textColor="#D3000000"
+            android:textSize="24sp"
+            android:layout_marginLeft="16dp"
+            android:layout_below="@+id/bookImageView"/>
+
+        <TextView
+            android:id="@+id/bookAuthor"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Book Author"
+            android:textColor="#90000000"
+            android:textSize="16sp"
+            android:layout_marginLeft="16dp"
+            android:layout_below="@+id/bookTitle"/>
+
+        <TextView
+            android:id="@+id/bookPrice"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="₹ 400.00"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:layout_marginLeft="16dp"
+            android:layout_below="@+id/bookAuthor"/>
+
+        <RatingBar
+            android:id="@+id/bookRating"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bookPrice"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:max="5"
+            style="@style/RatingBar"
+            android:minWidth="24dp"
+            android:numStars="5"
+            android:text="₹ 400.00"
+            android:textColor="#000000"
+            android:textSize="32sp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/favorite"
+            android:backgroundTint="#D8D8D8"
+            android:scaleX=".7"
+            android:scaleY=".7"
+            android:src="@drawable/ic_baseline_favorite_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/bookImageView"
+            android:layout_alignRight="@+id/bookImageView" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

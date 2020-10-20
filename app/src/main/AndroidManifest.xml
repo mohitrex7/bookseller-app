@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/abcd_png"
+        android:label="Learnweel"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Cartsumm"></activity>
+        <activity android:name=".Referral1" />
+        <activity android:name=".AboutUs" />
+        <activity
+            android:name=".NotificationActivity"
+            android:label="Notification"
+            android:theme="@style/AppTheme.NoActionBar"  />
+        <activity android:name=".OrdersActivity" />
+        <activity android:name=".SellWithLearnweel.MyOrdersMainActivity" />
+        <activity android:name=".SellWithLearnweel.DeliveredActivity" />
+        <activity android:name=".SellWithLearnweel.ProcessingActivity" />
+        <activity android:name=".cartsummary" />
+        <activity android:name=".display_address" />
+        <activity android:name=".address" />
+        <activity android:name=".cart_activity" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".SupportActivity" />
+        <activity android:name=".NewToApp" />
+        <activity android:name=".HomePage.SwitchView.SwitchView" />
+        <activity android:name=".HomePage.ProductDetails.ProductDetails" />
+        <activity android:name=".SellWithLearnweel.SellWithLearnweel" />
+        <activity android:name=".Policy" />
+        <activity android:name=".Notifications" />
+        <activity android:name=".HelpSupportActivity" />
+        <activity
+            android:name=".Splashscreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ForgotPassword" />
+        <activity
+            android:name=".wishlist"
+            android:label="Wishlist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".myacc" />
+        <activity android:name=".addcard" />
+        <activity android:name=".Settings" />
+        <activity android:name=".Savedcards" />
+        <activity android:name=".profiledetails" />
+        <activity android:name=".changepassword" />
+        <activity android:name=".referral" />
+        <activity
+            android:name=".MainActivity3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDetails.productView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/productPic"
+            android:layout_width="170dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="34dp"
+            android:src="@drawable/imageholder" />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="320dp"
+            android:layout_height="46dp"
+            android:textSize="30dp"
+            android:textColor="#585858"
+            android:text="Product Name"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/orig_price"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:textSize="24dp"
+                android:textColor="#000000"
+                android:text="Price"
+                />
+            <TextView
+                android:id="@+id/Disc_price"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:textSize="24dp"
+                android:textColor="#9EA3A1"
+                android:text="Disc"
+                />
+            <TextView
+                android:id="@+id/disc_percent"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:textSize="24dp"
+                android:textColor="#67F834"
+                android:text="disc % off"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/publisher"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:textSize="24dp"
+            android:textColor="#626262"
+            android:text="Publishers"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="4.5"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                />
+            <RatingBar
+                android:stepSize="1.0"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:rating="3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Detail"
+            android:textSize="18sp"
+            android:textColor="#868282"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="15sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#868282"
+                android:text="PaperBack:"
+                android:textSize="18sp"
+                android:layout_marginTop="7sp"
+                android:layout_marginLeft="15sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#868282"
+                android:text="200 pages"
+                android:textSize="18sp"
+                android:layout_marginTop="7sp"
+                android:layout_marginLeft="7sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#868282"
+                android:text="Publisher:"
+                android:textSize="18sp"
+                android:layout_marginTop="7sp"
+                android:layout_marginLeft="15sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#868282"
+                android:text="New Age International Publishers; Third edition (1 January 2019)"
+                android:textSize="18sp"
+                android:layout_marginTop="7sp"
+                android:layout_marginLeft="7dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#868282"
+                android:text="Language:"
+                android:textSize="18sp"
+                android:layout_marginTop="7sp"
+                android:layout_marginLeft="15sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#868282"
+                android:text="English"
+                android:textSize="18sp"
+                android:layout_marginTop="7sp"
+                android:layout_marginLeft="7sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#868282"
+                android:text="Product Dimension:"
+                android:textSize="18sp"
+                android:layout_marginTop="7sp"
+                android:layout_marginLeft="15sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#868282"
+                android:text="20.3 x 25.4 x 4.7 cm"
+                android:textSize="18sp"
+                android:layout_marginTop="7sp"
+                android:layout_marginLeft="7dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#868282"
+                android:text="Customer Reviews: "
+                android:textSize="18sp"
+                android:layout_marginTop="7sp"
+                android:layout_marginLeft="15sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#868282"
+                android:text="x"
+                android:textSize="18sp"
+                android:layout_marginTop="7sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#868282"
+                android:text=" out of 5 Stars   "
+                android:textSize="18sp"
+                android:layout_marginTop="7sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#868282"
+                android:text="y"
+                android:textSize="18sp"
+                android:layout_marginTop="7sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#868282"
+                android:text=" customer "
+                android:textSize="18sp"
+                android:layout_marginTop="7sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#868282"
+                android:text="Description"
+                android:textSize="10sp"
+                android:layout_marginTop="7sp"
+                android:layout_marginLeft="40sp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#868282"
+                android:text="Similar product"
+                android:textSize="10sp"
+                android:layout_marginTop="7sp"
+                android:layout_marginLeft="15sp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#868282"
+                android:text="Return Policy"
+                android:textSize="10sp"
+                android:layout_marginTop="7sp"
+                android:layout_marginLeft="15sp"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_marginTop="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/barrier"/>
+
+        <TextView
+            android:layout_marginTop="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Rating and Reviews"
+            android:textSize="20dp"
+            android:layout_marginLeft="15sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="55sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textSize="60dp"/>
+            <androidx.appcompat.widget.AppCompatRatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                style="?android:attr/ratingBarStyle"
+                android:numStars="1"
+                />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ver_berrior"
+            android:layout_marginLeft="55sp"
+            android:layout_marginTop="5dp"/>
+
+<!--        <com.github.mikephil.charting.charts.BarChart-->
+<!--            android:layout_marginLeft="25sp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:id="@+id/fragment_verticalbarchart_chart"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            tools:ignore="MissingClass" />-->
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

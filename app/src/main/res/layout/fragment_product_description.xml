@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage.ProductDetails.ProductDescriptionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="#000000"
+
+        android:text="Presenting full video for the Malang Title Track, The latest song is sung and composed by Ved Sharma and the lyrics are penned by Kunaal Vermaa Harsh Limbachiya.
+Gulshan Kumar and T-Series present a Luv Films production, Mohit Suri’s multi-starrer thrilling love story Malang- Unleash The Madness starring Aditya Roy Kapur, Disha Patani, Anil Kapoor and Kunal Kemmu.
+Written by Aseem Arorra, the film is produced by Bhushan Kumar, Krishan Kumar, Luv Ranjan, Ankur Garg, and Jay Shewakramani." />
+
+</FrameLayout>

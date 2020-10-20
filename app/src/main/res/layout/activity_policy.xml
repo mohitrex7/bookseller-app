@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Policy">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:id="@+id/back"
+        android:layout_marginTop="5dp"
+        android:onClick="back"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POLICY"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="145dp"
+        android:padding="10dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conditions of Use"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please read these conditions carefully before using the Learnweel Application,You signify your agreement to be bound by these conditions"
+            android:textSize="20dp"
+            android:textColor="#0E0E0E"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="These Condition of Use constitute an electronic record within the meaning of the applicable law.This electronic "
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#0E0E0E"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
